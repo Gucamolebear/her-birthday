@@ -165,7 +165,7 @@
         }));
 
         var textAnimate = eval(Jscex.compile("async", function () {
-            $("#code").show().typewriter();
+            $("#code").css("position","absolute").show().typewriter();
         }));
 	    
         var runAsync = eval(Jscex.compile("async", function () {
@@ -182,3 +182,4 @@
 </body>
 
 </html>
+
